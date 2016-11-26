@@ -1,0 +1,52 @@
+body.body {background-color:#000000;}
+nav.menu {font-size:150%;
+			text-align:center;
+			border: 2px solid black;
+			border-radius: 5px;
+			background-color:#FFFFFF;}
+h1 {
+	padding-top: 2%;
+	text-align:center;
+}
+h4.h4 {
+	text-align:center;
+}
+div.div1 {
+	background-color:#FFFFFF;
+}
+span.span1 {
+	background-color:#FFFFFF;
+	 margin: 3%;
+}
+h1.h1{
+	text-align:center;
+	text-shadow: 2px 2px 1px #FFFFFF, -2px -2px 6px #FFFFFF;
+	text-decoration:underline;
+	padding-top: 0%;
+}
+* {
+  margin: 3%;
+  padding: 0%;
+}
+section.introducion {background-color:#FFFFFF; }
+section.basico {background-color:#FFFFFF;}
+section.etiquetas {background-color:#FFFFFF;}
+section.atributos {background-color:#FFFFFF;}
+
+article.article01{margin-left: auto;
+		margin-right: auto;
+		}
+a.top {
+	  position: fixed;
+	  bottom: 1em;
+	  right: 1em;
+	  text-decoration: none;
+	  color: black;
+	  background-color: #FFFFFF;
+	  font-size: 14px;
+	  padding: 1em;
+	  
+	}
+	 
+a.top:hover {
+	  background-color: #BDBDBD;}

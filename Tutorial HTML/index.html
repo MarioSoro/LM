@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Aprende Web</title>
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<meta charset="utf-8">
+		<meta name="author" content="Mario Soro">
+	</head>
+<body class="body">
+	<h1 class="h1" id="top" >Aprende Web</h1>
+	
+	<nav class="menu">
+		<a href="#introducion">¿Que es HTML?</a>
+		<a href="#basico">Modelo Basico</a>
+		<a href="#etiquetas">Etiquetas Basicas</a>
+		<a href="#atributos">Etiquetas con Atributos</a>
+	</nav>
+	
+	<section id="introducion" class="introducion">
+		<h1>¿Que es HTML?</h1>	
+			<article class="article01">
+				<p>
+					HTML(HyperText Markup Language) es un lenguaje de etiquetas que fue creado por Tim Berners-Lee y Robert Cailliau. 
+					Estas etiquetas son reconocidas por el navegador que es el encargado de mostrar el contenido. 
+					El HTML separa el "contenido" (palabras, imágenes, audio, video, etc.) 
+					de la "presentación" (la definición del tipo de contenido y las instrucciones de cómo esos contenidos tienen que mostrarse). 
+					El HTML emplea un conjunto de elementos predefinidos que permiten identificar los distintos tipos de elementos. 
+					Estos elementos contienen una o más etiquetas que contienen o expresan el contenido. Estas etiquetas suelen 
+					ir encapsuladas entre los símbolos &lt;&gt;, y las etiquetas de cierre (que indican el final de un determinado contenido) 
+					están precedidas por una barra &lt;/&gt;.
+				</p>
+			</article>
+		<br>
+	</section>
+	
+	<section id="basico" class="basico">	
+		<h1>El Modelo Basico</h1>
+			<article class="article01">
+				<p>
+					&lt;!DOCTYPE html&gt; Esta etiqueta declara que tipo de documento vamos a crear, siempre sera la primera etiqueta de nuestro documento y siempre ira en mayusculas la parte del DOCTYPE.<br>		
+					&lt;html&gt; Esta etiqueta declara que a partir de aqui todo lo que escribamos sera HTML.<br>
+					&lt;head&gt; Esta etiqueta crea una zona en nuestro documento llamada cabecera.<br>
+					&lt;title&gt; Ejemplo 2 &lt;/title&gt; Esta etiqueta se usa para poner un nombre o un titulo a nuestra web.<br>
+					&lt;/head&gt; Esta es la etiqueta de cierre del HEAD o encabezado.<br>
+					&lt;body&gt; Esta etiqueta abre otra parte de nuestra web llamada body o cuerpo.<br>
+					&lt;/body&gt; Esta etiqueta cierra la etiqueta body.<br>
+					&lt;/html&gt; Esta etiqueta cierra la etiqueta HTML anteriormente abierta.<br>
+				</p>
+			</article>
+		<br>
+	</section>
+	
+	<section id="etiquetas" class="etiquetas">
+		<h1>Etiquetas Basicas</h1>
+		<article>
+			<h3>Cosas Importantes:</h3>
+			<p>
+				Todas las etiquetas deberian de estar cerrada y todas las etiquetas se deben de escribir en minuscula aparte del DOCTYPE.	
+				<br>
+				Una web se puede ditribuir con estas etiquetas:<br>
+				&lt;head&gt;Que seria nuestro encabezado.<br>
+				&lt;body&gt;Que seria el cuerpo.<br>
+				&lt;fotter&gt;Que seria el pie de pagina.<br>
+				&lt;nav&gt;Es una etiqueta que nos sirve para crear nuestro menu.<br>
+				&lt;aside&gt;Es una etiqueta que nos distribuye mejor el documento.<br>
+				&lt;section&gt;Es una etiqueta con la que podremos crear secciones en nuestra web.<br>
+				&lt;article&gt;Es una etiqueta con la que podremos crear articulos.<br>
+			</p>
+		</article>
+		
+		<article>
+			<h3>TITULOS</h3>
+				<table border="1">
+					<tr>
+						<td>&lt;h1&gt;</td>
+						<td><h1>Texto de título de primer nivel</h1></td>
+						<td>&lt;h1&gt;Texto de título de primer nivel&lt;/h1&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h2&gt;</td>
+						<td><h2>Texto de título de segundo nivel</h2></td>
+						<td>&lt;h2&gt;Texto de título de segundo nivel&lt;/h2&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h3&gt;</td>
+						<td><h3>Texto de título de tercer nivel</h3></td>
+						<td>&lt;h3&gt;Texto de título de tercer nivel&lt;/h3&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h4&gt;</td>
+						<td><h4>Texto de título de cuarto nivel</h4></td>
+						<td>&lt;h4&gt;Texto de título de cuarto nivel&lt;/h4&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h5&gt;</td>
+						<td><h5>Texto de título de quinto nivel</h5></td>
+						<td>&lt;h5&gt;Texto de título de quinto nivel&lt;/h5&gt;</td>
+					</tr>
+					<tr>
+						<td>&lt;h6&gt;</td>
+						<td><h6>Texto de título de sexto nivel</h6></td>
+						<td>&lt;h6&gt;Texto de título de sexto nivel&lt;/h6&gt;</td>
+					</tr>	
+				</table>
+		</article>
+		
+		<article>
+			<h3>Agrupacion</h3>
+			<p>
+				&lt;p&gt;Esto es un parrafo&lt;/p&gt; En el codigo de html se muestra asi: &lt;p&gt;Esto es un parrafo&lt;/p&gt;<br><br>
+				
+				&lt;pre&gt;Esto es un&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texto preformateado&lt;/pre&gt;
+				En el codigo de html se muestra asi: &lt;pre&gt;
+				Esto es un&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texto preformateado&lt;/pre&gt;
+			</p>
+			<h3>Listas</h3>
+				<p>Una Lista se compone de la etiqueta que la crea (ul,ol,dl) y de li que se encargada de separar el contenido. </p>
+				<p>Existen diferentes tipos de listas como:</p>
+			<table border="1">
+				<tr>
+					<td>Listas Desordenadas &lt;ul&gt;</td>
+					<td>
+						<ul>
+							<li>Hola</li>
+							<li>adios</li>
+						</ul>
+					</td>
+					<td>
+						&lt;ul&gt;<br>
+							&lt;li&gt;Hola&lt;/li&gt;<br>
+							&lt;li&gt;adios&lt;/li&gt;<br>
+						&lt;/ul&gt;<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Listas Ordenadas &lt;ol&gt;</td>
+					<td>
+						<ol>
+							<li>Hola</li>
+							<li>adios</li>
+						</ol>
+					</td>
+					<td>
+						&lt;ol&gt;<br>
+							&lt;li&gt;Hola&lt;/li&gt;<br>
+							&lt;li&gt;adios&lt;/li&gt;<br>
+						&lt;/ol&gt;<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Listas Definidas &lt;dl&gt;</td>
+					<td>
+						<dl>
+							<dt>Hola</dt>
+							<dd>adios</dd>
+						</dl>
+					</td>
+					<td>
+						&lt;dl&gt;<br>
+							&lt;dt&gt;Define un termino&lt;/dt&gt;<br>
+							&lt;dd&gt;Describe un termino&lt;/dd&gt;<br>
+						&lt;/dl&gt;<br>
+					</td>
+				</tr>
+			</table>
+		</article>
+		
+		<article>
+			<h3>Tablas</h3>
+			<p>Se forman usando estas etiquetas:<br>
+			&lt;table&gt;Esta etiqueta abre la tabla.<br>
+				&nbsp;&nbsp;&lt;/tr&gt;Esta etiqueta abre las filas.<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;&lt;/td&gt;Estas etiquetas abren y cierran las columnas.<br>
+				&nbsp;&nbsp;&lt;/tr&gt;Esta etiqueta cierra las filas.<br>
+			&lt;/table&gt;Esta etiqueta cierra la tabla.<br>
+			span y rowspan:
+			</p>
+		</article>
+		
+		<article>
+			<h3>Resaltado de texto:</h3>
+			<p>	
+				<b>&lt;b&gt;Negrita&lt;/b&gt;</b><br>
+				<i>&lt;i&gt;Italica&lt;/i&gt;</i><br>
+				<u>&lt;u&gt;Subrayado&lt;/u&gt;</u><br>
+				<em>&lt;em&gt;Enfasis&lt;/em&gt;</em><br>
+				<strong>&lt;strong&gt;Parte importante&lt;/strong&gt;</strong><br>
+				<small>&lt;small&gt;Letra pequeña&lt;/small&gt;</small><br>
+				<s>&lt;s&gt;Contenido irrelevante u obsoleto&lt;/s&gt;</s><br>
+			</p>
+			<h3>Etiquetas especiales:</h3>
+			<p>
+				&lt;hr&gt;Se utiliza para separar el contenido.<br>
+				&lt;br&gt;Inserta un salto de línea.<br>
+			</p>
+		</article>
+		
+		<article>
+			<h3>Divs</h3>
+			<div class="div1">&lt;div&gt;&lt;/div&gt;<br>
+				Los divs o contenedores son bloques que se suelen usar para distribuir mejor los datos:<br>
+				Cosas Importantes:<br>
+				-Comienzan en una línea nueva.<br>
+				-Ocupan todo el ancho disponible, aunque con css se puede modificar.<br>
+				Pueden contener otros divs o spans.<br>
+			</div>
+			<h3>Span</h3>
+			<span class="span1">&lt;span&gt;&lt;/span&gt;<br></span>
+			<span class="span1">Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.<br></span>
+			<span class="span1">Cosas Importantes:<br></span>
+			<span class="span1">-Comienzan en la misma línea.<br></span>
+			<span class="span1">-Sólo ocupan el espacio necesario.<br></span>
+			<span class="span1">-Sólo pueden contener otros spans.<br></span>
+			<br>
+			<br>
+			<br>
+		</article>
+	</section>
+	
+	<section id="atributos" class="atributos">
+		<h1>Etiquetas con atributos</h1>
+		<article>
+			<h3>Los hiperenlaces o anclas:</h3>
+			<p>
+				Las solemos usar para crear vinculos a sitios.<br>
+				Formula simple:<br>
+				<a>&lt;a&gt;&lt;/a&gt;</a>Sigue el procedimiento habitual.<br>
+				Ahora vamos a añadirle atributos:<br>
+				&lt;a name="anclaje">lugar&lt;/a&gt; Con el atributo name se referencia esta ancla a otra.<br>
+				&lt;a href="anclaje">aquí&lt;/a&gt; Con el atributo href se enlaza, en el caso de que le demos click
+				a este hipervinculo en el navegador nos llevara a la ancla que tenga como atributo name="anclaje".<br><br>
+				
+				El uso de ID:<br>
+				&lt;etiqueta id="etiqueta"&gt; Contenido &lt;/etiqueta&gt; En una etiqueta cualquiera se pone el atributo id para darle un nombre,<br>
+				&lt;a href="#etiqueta"&gt; Nombre ancla&lt;/a&gt; Para luego desde la ancla hacer un enlace entonces cuando le demos a click en el navegador<br>
+				nos redigira a la etiqueta que tenga ese id.<br>
+				<br>
+				Otras cosas que se pueden hacer:<br>
+				Descargar archivos<br>
+				&lt;a href="url del archivo a descargar" download="Nombre del archivo"&gt; Descargar Archivo&lt;/a&gt; <br><br>
+				Redireccionar a paginas web, a otras paginas html etc.<br>
+				&lt;a href="url de la web o pagina html"&gt; Nombre de la pagina&lt;/a&gt;<br>
+			</p>	
+		</article>
+		
+		<article>
+			<h3>Atributos metas</h3>
+			<p>
+				&lt;html lang="es"&gt; Con Lang declaramos el idioma del documento html.<br>
+				&lt;meta charset="utf-8&gt; Con esta etiqueta declaramos que el archivo html estara codificado en utf-8.<br>
+				&lt;meta name="author" content="Mario Soro"&gt; Con esta etiqueta declaramos quien es el autor y su nombre.<br>
+			</p>
+		</article>
+		
+		<article>
+				<h3>Listas con atributos</h3>
+			<p>
+				ul reversed (Si de normal una lista empieza por el 1, pues con esto la lista empieza por el ultimo numero de esta.)
+				ul start="número" (Con este atributo podemos declarar por que numero empieza esta lista)
+				ul type="tipo"
+				–1
+				–a
+				–A
+				–i
+				–I
+				•Para LI: value
+			</p>
+				<h3>Imagenes:</h3>
+			<p>
+				Estructura para poner imagenes en una pagina web con html<br>
+				&lt;img src="ruta imagen\nombre imagen.extension" anchura=200 altura=se mide normalmente en pixels alt="Descripcion brebe de la foto"gt;<br>
+			</p>
+			<a class="top" href="#top">Subir</a>
+		</article>
+		<br>
+	</section>
+</body>	
+</html>
